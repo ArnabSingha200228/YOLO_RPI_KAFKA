@@ -1,4 +1,4 @@
-# Raspberry Pi setup in qemu emulator
+# Object Detection using YOLO in qemu emulated Raspberry Pi connected to a Kafka network
 ## 1) Installing Qemu and simulating rpi on qemu
 > Download Raspberry Pi OS (64-bit) from Raspberry Pi operating system images.(File already downloadad in local machine). Here we downloaded Raspberry Pi OS (64-bit) with desktop, Kernel version: 6.1, Debian version: 11 (bullseye), Release date: May 3rd 2023, named 2023-05-03-raspios-bullseye-arm64.img.
 
