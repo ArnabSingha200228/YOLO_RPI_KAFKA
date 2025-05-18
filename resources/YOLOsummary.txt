@@ -1,0 +1,39 @@
+## model base class
+ultralytics/ultralytics/engine/model.py
+class Model -> _smart_load, __call__, trainer, predict
+
+## basetrainer
+ultralytics/ultralytics/engine/trainer.py
+class BaseTrainer -> train, _do_train
+
+## task map
+ultralytics/models/yolo/model.py
+task_map
+
+## YOLO defn
+ultralytics/models/yolo/model.py
+class YOLO
+
+## detection trainer defn
+ultralytics/ultralytics/models/yolo/detect/train.py
+class DetectionTrainer
+
+## detection predictor defn
+ultralytics/models/yolo/detect/predict.py
+class DetectionPredictor
+
+## global cfg
+ultralytics/cfg/default.yaml
+
+## model architecture definiton(head, neck, backbone)
+ultralytics/cfg/models/v8/yolov8.yaml
+
+## model definiton
+ultralytics/nn/tasks.py
+class DetectionModel, BaseModel
+parse_model
+
+## nn modules
+ultralytics/nn/modules
+block.py, conv.py, head.py
+
