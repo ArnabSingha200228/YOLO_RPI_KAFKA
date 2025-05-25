@@ -196,3 +196,7 @@ The qemu emulated rpi can't directly connect to the network outside the host mac
 	
 	$ python YOLO_sender.py
 	
+
+
+## References
+[https://gist.github.com/cGandom/23764ad5517c8ec1d7cd904b923ad863]
