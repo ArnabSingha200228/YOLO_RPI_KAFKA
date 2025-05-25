@@ -135,7 +135,7 @@ n the `fdisk>` prompt:
 	       # For END, just press ENTER to use all remaining space.
 	w      # write changes
 >
-	$	sudo reboot
+	$ sudo reboot
 After reboot, grow the filesystem:
 
 	$ sudo resize2fs /dev/sda2
